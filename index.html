@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>A.I. Snake Game - HTML5 - Anderson Ferminiano</title>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <script type="text/javascript" src="scripts/snake.js"></script>
+    <link href="style.css" media="all" rel="stylesheet" />
+</head>
+<body>
+<div class="settings">
+<p>Sampling A.I. in Games, linked by an article at NetTuts+, developed by <a href="http://www.twitter.com/andferminiano" target="_blank">@andferminiano (Anderson Ferminiano)</a>.</p>
+<p class="left">delay: <input type="text" name="speed" onchange="app.onChangeSpeed(this);" value="2"/></p>
+<p class="right"><input type="button" name="restart" onclick="app.restart();" value="restart"/></p>
+
+</div>
+<div class="clear"></div>
+<canvas id="game" width="400" height="400"></canvas>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#game {
+    width:400px;
+    margin: 0px auto;
+    border: 1px solid #000;
+    display: block;
+    margin-top:30px;
+}
+
+.settings {
+    width:400px;
+    margin: 0px auto;
+}
+
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.clear {
+    clear:both;
+}
